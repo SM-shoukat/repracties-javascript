@@ -145,9 +145,177 @@
 // var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
 // document.write(arr[0] + "<br>" + arr[1] + "<br>" + arr[2] + "<br>");
 
-var prom = +prompt("konsa table chahye he")
-var prom1 = +prompt("kahan tk chahye he");
+// var prom = +prompt("konsa table chahye he")
+// var prom1 = +prompt("kahan tk chahye he");
 
-for(var i = 1; i < prom1; i++){
-    document.write(`${}`)
-}
+// for(var i = 1; i < prom1; i++){
+//     document.write(`${prom} x ${i} = ${i*prom} <br>`)
+// }
+
+// for(var i = 0; i <= 10; i = i + 2){
+//     console.log(i)
+// }
+
+// var arr = [100,80,30,140,50,60];
+// var store = [0];
+// for(var i = 0; i < arr.length; i++){
+//     if(arr[i] > store){
+//         store = arr[i]
+//     }
+// }
+// console.log(store)
+
+// var city = "pakistan";
+// console.log(city.indexOf("t"))
+
+// var city = "islamabad"
+// city = city.replace(city ,"lahore")
+// console.log(city)
+
+// var prom = prompt();
+// var store = prom.charAt(0).toUpperCase() + prom.slice(1).toLowerCase();
+// console.log(store)
+
+// var num = 35.36;
+// var result = num.toString().replace(".", "");
+// console.log(result); // Output: "3536"
+// var symbols = ["!","@","#","$","%","^","&","*","(",")","_","+","?"];
+// var store = false;
+// var prom = prompt("enter your usernname");
+
+//  for(var i = 0; i < prom.length; i++){
+//     for(var j = 0; j < symbols.length; j++){
+//        if(prom[i] == symbols[j]){
+//             store = true;
+//             alert(prom + " is invalid username");
+//             break;
+//        }
+       
+//     }
+//     if(store == true){
+//         break;
+//         }
+// };
+// if(!store){
+//     // store = prom;
+//     alert(prom + " is valid username");
+//     // break;
+//    }
+// var items = ["cake","patties","chips","cookie","apple pie"]
+// var prom = prompt("what do you want");
+// prom = prom.toLowerCase();
+// var flag = true;
+// for(var i = 0; i < items.length;i++){
+//     if(prom == items[i]){
+//         alert(prom + " is available in index of " + i);
+//         flag = false;
+//     }
+// }
+// if(flag){
+//     alert(prom + " is not available");
+// }
+// var store = items.indexOf(prom)
+// if(-1 !== store){
+//     alert(prom + " is available in index of " + store);
+// }
+// else{
+//     alert(prom + " is not available");
+// }
+
+
+// var count = 0;
+// var symbols = ["!","@","#","$","%","^","&","*","(",")","_","+","?"];
+// var store = false;
+// var prom = prompt("enter your password");
+
+// for (var i = 0; i < prom.length; i++) {
+//     for (var j = 0; j < symbols.length; j++) {
+//         if (prom[i] === symbols[j]) {
+//             store = true;
+//             break;
+//         }
+//     };
+    
+//     if (store) {
+//         break;
+//     }
+// }
+
+// if (store) {
+//     alert(prom + ' "INVALID PASSWORD: It should contain only alphabets and numbers."');
+//     count++
+// }
+
+// for (var k = 0; k < prom.length; k++) {
+//     if(prom.length < 6){
+//         alert(prom + ' " it must at least 6 characters long."');
+//         count++
+//         store = true;    
+//         break;
+//     }if( !isNaN(prom.charAt(0)) ){
+//         store = true;
+//         alert("Password should not start with a number.");
+//         count++
+//     }
+//     if (store) {
+//         break;
+//     }
+// }
+
+// if (count == 0 ) {
+//     alert("password is valid");
+// }
+
+
+// var uni = "university of pakistan";
+// uni = uni.split([]);
+// console.log( uni);
+
+// var Lname = prompt("last name");
+// Lname = Lname.charAt(Lname.length - 1)
+// alert(Lname);
+
+// var easy = "the quick brown fox jumps over the lazy dog the dog the house the bank";
+// var count = 0;
+// var store;
+// for(var i = 0;i < easy.length;i++){
+//     if(easy.slice(i, i + 3) == "the"){
+//         store = count++
+//         console.log(store);
+//     }
+// }
+
+// var num = prompt("give a number")
+// num = Math.round(num);
+// document.write(num)
+// num = Math.ceil(num);
+// document.write(num)
+// num = Math.floor(num);
+// document.write(num)
+
+
+
+// var num = +prompt("write any number")
+// num =  Math.abs(num)
+// alert(num)
+
+
+// var num = (Math.random() * 6);
+// num = Math.round(num)
+// document.write(num)
+
+
+
+
+// var num = (Math.random() * 100)
+// num = Math.round(num);
+// document.write("random number betweem 1 to 100 : " + num)
+
+
+
+
+
+
+
+
+
